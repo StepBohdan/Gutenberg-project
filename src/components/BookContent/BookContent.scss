@@ -1,0 +1,39 @@
+.bookContent-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  .book-title {
+    text-align: center;
+    font-size: 45px;
+    font-family: DM Sans;
+    margin: 50px 0;
+  }
+  .book-image {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 7px;
+  }
+  .authors {
+    text-align: center;
+    font-size: 30px;
+    font-family: DM Sans;
+    margin-top: 50px;
+  }
+  .linkToRead {
+    display: flex;
+    color: black;
+    font-family: DM Sans;
+    font-size: 30px;
+    background: #fff;
+
+    width: 150px;
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    justify-content: center;
+    margin: 40px auto;
+  }
+}
