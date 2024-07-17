@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Header.scss";
+import Scope from "./scope.svg?react"
 
 export default function Header({ toggleFavourites, handleSearchChange }) {
     const toggleShowFavorites = (checker) => () => {
@@ -19,7 +20,9 @@ export default function Header({ toggleFavourites, handleSearchChange }) {
                         placeholder="Search books..."
                         onChange={handleSearchChange}
                     />
+                      <Scope />
                 </form>
+              
             </div>
         </div>
     );
